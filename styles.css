@@ -1,0 +1,28 @@
+body {
+    background-color: seagreen;
+    border-bottom: 2px solid black;
+} 
+
+h1.header {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-color: #7FFF00;
+    color:#7FFF00;
+    background-color: #1C6EA4;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid seagreen;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: seagreen;
+    color: white;
+  }
